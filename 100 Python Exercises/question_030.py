@@ -3,6 +3,13 @@
 # function should print all strings line by line.
 
 def greater_str(*args):
-    greater_str = args[0]
+    greater_str = ['']
     for string in args:
-        if len(string)
+        if len(string) > len(greater_str[0]):
+            greater_str = [string]
+        elif len(string) == len(greater_str[0]):
+            greater_str.append(string)
+    
+    print(*greater_str, sep='\n')
+
+greater_str('abc','defghi','jk','lmnopq')
