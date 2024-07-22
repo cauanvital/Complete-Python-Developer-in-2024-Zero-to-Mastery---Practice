@@ -1,13 +1,4 @@
-from datetime import datetime
+import re
 
-t = datetime.now()
-def a(n):
-    return (n + 1) * 2
-
-j = 0
-
-for i in range(100000000):
-    j = a(i)
-
-print(j)
-print(f'Execution time: {datetime.now() - t}')
+string = 'search inside of this text please!'
+print('search' in string)
