@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=C:\Users\Desk\Downloads\PythonCodes\ZTM\web-development\portifolio
+set VIRTUAL_ENV=C:\Users\Desk\Downloads\PythonCodes\zero-to-mastery\web-development\portifolio
 
 if not defined PROMPT set PROMPT=$P$G
 
